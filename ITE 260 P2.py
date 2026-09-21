@@ -7,7 +7,7 @@ for i in range(Students):
     activity1 = int(input("Enter your score in activity 1:"))
     activity2 = int(input("Enter your score in activity 2:"))
     activity3 = int(input("Enter your score in activity 3:"))
-    Average = (activity1 + activity2 + activity3) / 3
+    Average = average(activity1, activity2, activity3)
 
     print("Name:", Name)
     print("Average", Average)
